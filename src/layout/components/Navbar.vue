@@ -16,9 +16,9 @@
           <screenfull id="screenfull" class="right-menu-item hover-effect" />
         </el-tooltip>
 
-        <el-tooltip content="布局设置" effect="dark" placement="bottom">
+        <!-- <el-tooltip content="布局设置" effect="dark" placement="bottom">
           <size-select id="size-select" class="right-menu-item hover-effect" />
-        </el-tooltip>
+        </el-tooltip> -->
 
       </template>
 
@@ -181,7 +181,7 @@ export default {
           cursor: pointer;
           width: 40px;
           height: 40px;
-          border-radius: 10px;
+          border-radius: 50%;
         }
 
         .el-icon-caret-bottom {
@@ -191,6 +191,9 @@ export default {
           top: 25px;
           font-size: 12px;
         }
+
+
+
       }
     }
   }
